@@ -1,0 +1,76 @@
+$bg-color: #0983AB;
+$text-color1: #fff;
+$text-color2: #FFB504;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: $bg-color;
+  color: $text-color1;
+}
+
+h1 {
+  font-size: 3.4rem;
+  border-bottom: 3px solid $text-color2;
+  margin-bottom: 20px;
+  @media (max-width: 600px) {
+    font-size: 2.5rem;
+  }
+  padding-bottom: 5px;
+  @media (max-width: 400px) {
+    font-size: 2rem;
+  }
+  span {
+    color: $text-color2;
+  }
+}
+
+input {
+  border-radius: 10px;
+  height: 35px;
+  width: 250px;
+  color: #111111;
+  border: 3px solid $text-color2;
+}
+
+.btn {
+  margin: 10px 5px;
+  color: $text-color1;
+  background-color: darken($bg-color, 10%);
+  border: none;
+  &:hover {
+    color: inherit;
+  }
+  &.random {
+    background-color: $text-color2;
+    &:hover {
+      background: darken($text-color2, 5%);
+    }
+  }
+}
+
+ul {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+li {
+  list-style-type: none;
+  margin-top: 10px;
+  &:hover {
+    background-color: darken($bg-color, 10%);
+    border-left: 5px solid $text-color2;
+    padding-left: 5px;
+  }
+  a {
+    color: $text-color2;
+    &:hover {
+      color: $text-color2;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+/* line 5, index.scss */
+html {
+  font-size: 16px;
+}
+
+/* line 9, index.scss */
+body {
+  text-align: left;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: #0983ab;
+  color: white;
+}
+
+/* line 16, index.scss */
+h1 {
+  font-size: 3.4rem;
+  border-bottom: 3px solid #ffb504;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+@media (max-width: 600px) {
+  /* line 16, index.scss */
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 400px) {
+  /* line 16, index.scss */
+  h1 {
+    font-size: 2rem;
+  }
+}
+/* line 27, index.scss */
+h1 span {
+  color: #ffb504;
+}
+
+/* line 32, index.scss */
+input {
+  border-radius: 10px;
+  height: 35px;
+  width: 250px;
+  color: #111111;
+  border: 3px solid #ffb504;
+}
+
+/* line 40, index.scss */
+.btn {
+  margin: 10px 5px;
+  color: white;
+  background-color: #065e7b;
+  border: none;
+}
+/* line 45, index.scss */
+.btn:hover {
+  color: inherit;
+}
+/* line 48, index.scss */
+.btn.random {
+  background-color: #ffb504;
+}
+/* line 50, index.scss */
+.btn.random:hover {
+  background: #eaa500;
+}
+
+/* line 56, index.scss */
+ul {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+/* line 61, index.scss */
+li {
+  list-style-type: none;
+  margin-top: 10px;
+}
+/* line 64, index.scss */
+li:hover {
+  background-color: #065e7b;
+  border-left: 5px solid #ffb504;
+  padding-left: 5px;
+}
+/* line 69, index.scss */
+li a {
+  color: #ffb504;
+}
+/* line 71, index.scss */
+li a:hover {
+  color: #ffb504;
+  text-decoration: none;
+}
